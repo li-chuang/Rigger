@@ -9,7 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <description>Roses是开源项目Guns的核心包</description>
+    <name>rigger</name>
+    <description>我的开源脚手架</description>
+
     <modules>
         <module>base-rule</module>
     </modules>
