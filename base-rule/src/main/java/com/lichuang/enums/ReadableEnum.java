@@ -6,7 +6,7 @@ package com.lichuang.enums;
  * key一般是编码，id，具有标识性的类型
  * value一般是String类型，是一串文字
  *
- * @author fengshuonan
+ * @author li-chuang
  * @date 2022/9/6 11:27
  */
 public interface ReadableEnum<T> {
