@@ -9,9 +9,6 @@ import lombok.Getter;
 
 /**
  * 公共状态，一般用来表示开启和关闭
- *
- * @author fengshuonan
- * @date 2020/10/14 21:31
  */
 @Getter
 public enum StatusEnum implements ReadableEnum<StatusEnum> {
@@ -40,8 +37,6 @@ public enum StatusEnum implements ReadableEnum<StatusEnum> {
     /**
      * 根据code获取枚举
      *
-     * @author fengshuonan
-     * @date 2020/10/29 18:59
      */
     @JsonCreator(mode = JsonCreator.Mode.DELEGATING)
     public static StatusEnum codeToEnum(Integer code) {
